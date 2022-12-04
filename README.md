@@ -1,0 +1,2 @@
+# Legend
+Paid command 😎
