@@ -22,8 +22,7 @@ try:
 	import concurrent.futures
 except ImportError:
 	os.system("pip install futures")
-try:
-	os.system("git pull")
+
 import os
 import sys
 import time
@@ -415,4 +414,7 @@ if len(sys.argv) == 2:
 		Main()
 
 try:Main()
+except:pass
+try:os.system("git pull")
+except:pass
 except Exception as e:exit(str(e))
