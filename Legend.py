@@ -416,5 +416,4 @@ if len(sys.argv) == 2:
 try:Main()
 except:pass
 try:os.system("git pull")
-except:pass
 except Exception as e:exit(str(e))
